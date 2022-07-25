@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <input id="searchCity" type="text" placeholder="search new location" />
+      <div class="header">
+        <div class="city">
+          <div>
+            <h1>Porto</h1>
+          </div>
+        </div>
+        <div class="temperature">
+          <div>
+            <h2>Sun 19th</h2>
+            <div class="temp" id="temperature">
+              <h1><span>23</span>°</h1>
+              <img src="src/img/day.svg" alt="day" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="forecast">
+        <div class="day">
+          <h1>Mon 20th</h1>
+          <h2>19°</h2>
+          <img src="src/img/rainy-1.svg" alt="rain" />
+        </div>
+        <div class="day">
+          <h1>Tue 21st</h1>
+          <h2>19°</h2>
+          <img src="src/img/cloudy-day-3.svg" alt="cloud" />
+        </div>
+        <div class="day">
+          <h1>Wed 22nd</h1>
+          <h2>20°</h2>
+          <img src="src/img/cloudy-day-1.svg" alt="cloud" />
+        </div>
+        <div class="day">
+          <h1>Thu 23rd</h1>
+          <h2>20°</h2>
+          <img src="src/img/cloudy-day-1.svg" alt="cloud" />
+        </div>
+        <div class="day">
+          <h1>Fri 24th</h1>
+          <h2>21°</h2>
+          <img src="src/img/day.svg" alt="sun" />
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

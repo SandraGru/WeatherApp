@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+  padding: 30px;
+  color: #24527a;
+}
+input {
+  height: 50px;
+  width: 300px;
+  border: 2px solid #5dacbd;
+  font-family: "Oswald", sans-serif;
+}
+.city {
+  border: 2px solid #5dacbd;
+  width: 200px;
+  text-align: center;
+  margin-right: 50px;
+  font-size: 40px;
+}
+.city h1 {
+  margin: 0;
+}
+.temperature {
+  border: 2px solid #5dacbd;
+  width: 200px;
+  text-align: center;
+
+  margin: 0;
+}
+.temperature h2 {
+  margin: 0;
+  margin-top: 5px;
+}
+.temp {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.temp h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  padding-top: 30px;
+}
+.forecast {
+  display: flex;
+  margin: 30px 0;
+  text-align: center;
+}
+.day {
+  border: 2px solid #5dacbd;
+  flex-grow: 1;
+  margin-right: 10px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
